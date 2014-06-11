@@ -51,6 +51,7 @@ Limit compress rate: 0.5 * 30 / 72 = 0.21
 
 ```
 ctx.io/_/zepto/1.1.3/a/b_c.d.min.js
-ctx.io/_c/
+ctx.io/_c/<serialize>.js
+```
 
 
