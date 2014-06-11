@@ -19,7 +19,7 @@ Serialization algorithm with convension will be extreme powerful.
 
 ```
 // <ext>/<root>/<name>/<version>[/<path>],...
-min.js/mod/zepto-wepp/1.1.3/a/b_c.d,underscore2/1.5.3
+min.js/mod/zepto-wepp/1.1.3/a/b_c.d,mod/underscore2/1.5.3/
 ```
 
 ```
@@ -29,13 +29,15 @@ min.js/mod/zepto-wepp/1.1.3/a/b_c.d,underscore2/1.5.3
 0123456789
 abcdefghij
 
-min.js/mod/zepto-wepp/babad/a/b_c.d,underscore2/bafad
+min/mod/zepto-wepp/babad/a/b_c.d,mod/underscore2/bafad
+.js
 
 2 -> //d 
 _ -> //k
 , -> '
 
-min.js/mod/zepto-wepp/babad/a/b//kc.d,underscore//d/bafad
+min/mod/zepto-wepp/babad/a/b//kc.d'mod/underscore//d/bafad
+.js
 ```
 
 ```
@@ -46,5 +48,9 @@ abcdefghijklmnopqrstuvwxyz-./'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!*()_
 Then dot the number system conversion.
 
 Limit compress rate: 0.5 * 30 / 72 = 0.21
+
+```
+ctx.io/_/zepto/1.1.3/a/b_c.d.min.js
+ctx.io/_c/
 
 
